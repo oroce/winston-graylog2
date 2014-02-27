@@ -4,22 +4,34 @@
   "version": "0.1.10",
   "author": "Flite, Inc. http://www.flite.com",
   "contributors": [
-      {
-        "name" : "Clay Smith"
-      }],
+    {
+      "name": "Clay Smith"
+    }
+  ],
   "repository": {
     "type": "git",
     "url": "http://github.com/flite/winston-graylog2.git"
   },
-  "keywords": ["logging", "sysadmin", "tools", "winston", "graylog2"],
+  "keywords": [
+    "logging",
+    "sysadmin",
+    "tools",
+    "winston",
+    "graylog2"
+  ],
   "dependencies": {
-    "compress-buffer": ">=0.5.1"
+    "compress-buffer": ">=0.5.1",
+    "circular-json": "~0.1.6"
   },
   "devDependencies": {
     "winston": "0.4.x",
     "vows": "0.5.x"
   },
   "main": "./lib/winston-graylog2",
-  "scripts": { "test": "vows test/*-test.js --spec" },
-  "engines": { "node": ">= 0.4.0" }
+  "scripts": {
+    "test": "vows test/*-test.js --spec"
+  },
+  "engines": {
+    "node": ">= 0.4.0"
+  }
 }
