@@ -14,7 +14,7 @@ function assertGraylog2 (transport) {
 }
 
 vows.describe('winston-graylog2').addBatch({
- "An instance of the Mail Transport": {
+ "An instance of the Graylog2 Transport": {
    "should have the proper methods defined": function () {
      assertGraylog2(transport);
    },
